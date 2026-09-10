@@ -1,0 +1,85 @@
+﻿{
+	"devices": [
+		{
+			"deviceName": "V304-18",
+			"instance": "5376FD9F4CD3AEC2576440A79C21E685",
+			"instanceName": "V304-18-41288",
+			"platform": "WindowsEditor",
+			"oSVersion": "Windows 11 (25H2) [10.0.26200.9168] ",
+			"model": "Default",
+			"gPU": "NVIDIA RTX A4000",
+			"cPUModel": "Intel(R) Xeon(R) w3-2435",
+			"rAMInGB": 128,
+			"renderMode": "D3D12_SM6",
+			"rHI": "D3D12 (SM6)",
+			"appInstanceLog": ""
+		}
+	],
+	"reportCreatedOn": "2026.09.09-10.27.43",
+	"succeeded": 4,
+	"succeededWithWarnings": 0,
+	"failed": 0,
+	"notRun": 0,
+	"inProcess": 0,
+	"totalDuration": 45.103096008300781,
+	"comparisonExported": false,
+	"comparisonExportDirectory": "",
+	"tests": [
+		{
+			"testDisplayName": "ClientPlayer_QuinnMovement",
+			"fullTestPath": "Project.Functional Tests.ShooterTests.Actor.Replication.InputAnimationTest.ClientPlayer_QuinnMovement",
+			"state": "Success",
+			"deviceInstance": [
+				"5376FD9F4CD3AEC2576440A79C21E685"
+			],
+			"duration": 25.212686538696289,
+			"dateTime": "2026.09.09-10.26.58",
+			"entries": [],
+			"warnings": 0,
+			"errors": 0,
+			"artifacts": []
+		},
+		{
+			"testDisplayName": "NetworkPlayers_Crouch",
+			"fullTestPath": "Project.Functional Tests.ShooterTests.Actor.Replication.InputAnimationTest.NetworkPlayers_Crouch",
+			"state": "Success",
+			"deviceInstance": [
+				"5376FD9F4CD3AEC2576440A79C21E685"
+			],
+			"duration": 6.0276236534118652,
+			"dateTime": "2026.09.09-10.27.23",
+			"entries": [],
+			"warnings": 0,
+			"errors": 0,
+			"artifacts": []
+		},
+		{
+			"testDisplayName": "NetworkPlayers_Jump",
+			"fullTestPath": "Project.Functional Tests.ShooterTests.Actor.Replication.InputAnimationTest.NetworkPlayers_Jump",
+			"state": "Success",
+			"deviceInstance": [
+				"5376FD9F4CD3AEC2576440A79C21E685"
+			],
+			"duration": 5.4956040382385254,
+			"dateTime": "2026.09.09-10.27.29",
+			"entries": [],
+			"warnings": 0,
+			"errors": 0,
+			"artifacts": []
+		},
+		{
+			"testDisplayName": "ServerPlayer_MannyMovement",
+			"fullTestPath": "Project.Functional Tests.ShooterTests.Actor.Replication.InputAnimationTest.ServerPlayer_MannyMovement",
+			"state": "Success",
+			"deviceInstance": [
+				"5376FD9F4CD3AEC2576440A79C21E685"
+			],
+			"duration": 8.3671817779541016,
+			"dateTime": "2026.09.09-10.27.34",
+			"entries": [],
+			"warnings": 0,
+			"errors": 0,
+			"artifacts": []
+		}
+	]
+}
